@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusCRM: The Future of Client Relationships</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #ffffff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+        }
+
+         h2, h3 {
+            font-weight: 600;
+            color: #22adfe;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        main {
+            padding: 2rem 0;
+        }
+
+        .grid-layout {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 2rem;
+            margin-bottom: 6rem;
+        }
+
+        .grid-item {
+            background: #f0f8ff;
+            border-radius: 20px;
+            padding: 2rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(34, 173, 254, 0.1);
+        }
+
+        .grid-item.large {
+            grid-column: span 12;
+        }
+
+        .grid-item.medium {
+            grid-column: span 6;
+        }
+
+        .grid-item.small {
+            grid-column: span 4;
+        }
+
+        .grid-item img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            font-weight: 300;
+            line-height: 1.8;
+            text-align: center;
+        }
+
+        .feature-list {
+            list-style-type: none;
+            margin-bottom: 1rem;
+            text-align: left;
+        }
+
+        .feature-list li {
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .feature-list li::before {
+            content: '•';
+            color: #22adfe;
+            margin-right: 0.5em;
+            font-size: 1.2em;
+        }
+
+        .cta {
+            text-align: center;
+            margin-top: 4rem;
+            padding: 4rem 2rem;
+            background: #f0f8ff;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #22adfe;
+            color: #ffffff;
+            padding: 1rem 3rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(34, 173, 254, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .image-gallery img {
+            width: 30%;
+            max-width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(34, 173, 254, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .grid-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .grid-item.large,
+            .grid-item.medium,
+            .grid-item.small {
+                grid-column: span 1;
+            }
+
+            .image-gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .image-gallery img {
+                width: 100%;
+                max-width: 300px;
+                margin-bottom: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Elevate Client Relationships</h1>
+        </header>
+
+        <main>
+            <div class="grid-layout">
+                <div class="grid-item large">
+                    <h2>Revolutionize Your Business</h2>
+                    <p>NexusCRM harnesses the power of cutting-edge AI and predictive analytics to transform how you manage and grow your client relationships. Embark on a journey to the future of CRM technology.</p>
+                    <a href="#" class="btn">Explore Now</a>
+                    <div class="image-gallery">
+                        <img src="/placeholder.svg?height=150&width=250" alt="AI-powered analytics dashboard">
+                        <img src="/placeholder.svg?height=150&width=250" alt="Client interaction timeline">
+                        <img src="/placeholder.svg?height=150&width=250" alt="Mobile CRM application">
+                    </div>
+                </div>
+                <div class="grid-item medium">
+                    <img src="/placeholder.svg?height=300&width=500" alt="Modern CRM Interface">
+                    <h3>Intuitive User Interface</h3>
+                    <p>Our sleek, user-friendly interface puts all the information you need at your fingertips.</p>
+                </div>
+                <div class="grid-item medium">
+                    <h3>AI-Powered Insights</h3>
+                    <ul class="feature-list">
+                        <li>Predictive client behavior analysis</li>
+                        <li>Automated sentiment analysis</li>
+                        <li>AI-driven opportunity forecasting</li>
+                    </ul>
+                    <img src="/placeholder.svg?height=200&width=300" alt="AI Insights Visualization">
+                </div>
+                <div class="grid-item large">
+                    <h2>Seamless Integration</h2>
+                    <p>NexusCRM integrates effortlessly with your existing tech ecosystem, creating a unified platform for all your business operations. Experience unparalleled efficiency and data consistency across all your systems.</p>
+                    <img src="/placeholder.svg?height=250&width=400" alt="Integration Diagram">
+                </div>
+                <div class="grid-item medium">
+                    <img src="/placeholder.svg?height=200&width=300" alt="Data Security Illustration">
+                    <h3>Advanced Security</h3>
+                    <p>State-of-the-art encryption and security protocols to keep your data safe.</p>
+                </div>
+                <div class="grid-item medium">
+                    <h3>Key Features</h3>
+                    <ul class="feature-list">
+                        <li>Real-time data synchronization</li>
+                        <li>Universal API for custom integrations</li>
+                        <li>Advanced security protocols</li>
+                    </ul>
+                    <img src="/placeholder.svg?height=150&width=250" alt="Feature Highlights">
+                </div>
+            </div>
+
+            <section class="cta">
+                <h2>Ready to Transform Your Client Relationships?</h2>
+                <p>Join forward-thinking businesses that are revolutionizing their client interactions with NexusCRM.</p>
+                <a href="#" class="btn">Start Your Free Trial</a>
+                <div class="image-gallery">
+                    <img src="/placeholder.svg?height=100&width=200" alt="Client success story 1">
+                    <img src="/placeholder.svg?height=100&width=200" alt="Client success story 2">
+                    <img src="/placeholder.svg?height=100&width=200" alt="Client success story 3">
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 NexusCRM. Pioneering the future of client relationships in the digital age.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const gridItems = document.querySelectorAll('.grid-item');
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            gridItems.forEach(item => {
+                item.style.opacity = 0;
+                item.style.transform = 'translateY(50px)';
+                item.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                observer.observe(item);
+            });
+        });
+    </script>
+</body>
+</html>
