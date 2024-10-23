@@ -3191,6 +3191,7 @@ button::-moz-focus-inner {
 .animated-link__text {
   text-decoration-line: underline;
   text-underline-offset: 0.25em;
+  font-size: 500;
 }
 .animated-link__text_outlined {
   color: #090808;

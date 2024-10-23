@@ -546,7 +546,7 @@ body {
 
 .title {
   font-family: "Inter Tight", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: capitalize;
 }
 @supports (font-size: clamp(2.5rem, 1.45rem + 4.6666666667vw, 4.25rem)) {
@@ -3835,7 +3835,7 @@ button::-moz-focus-inner {
 .animated-link__text {
   text-decoration-line: underline;
   text-underline-offset: 0.25em;
-  font-size: 300;
+  font-size: 200;
 }
 .animated-link__text_outlined {
   color: #090808;
