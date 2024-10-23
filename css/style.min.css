@@ -227,6 +227,7 @@ body {
 }
 .text_thin {
   font-weight: 180;
+  text-transform: capitalize;
 }
 .text_grey {
   color: #9b9b9b;
@@ -1093,6 +1094,7 @@ body {
   left: 0;
   white-space: nowrap;
   top: 46vh;
+  text-transform: capitalize;
 }
 .media-block_animated {
   position: relative;

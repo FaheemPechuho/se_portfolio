@@ -217,7 +217,7 @@ body {
 }
 .marquee-text {
   font-size: 20vw;
-  font-weight: bold;
+  font-weight: 500;
   text-transform: uppercase;
   /* margin: 2rem 2rem 2rem 2rem; */
   margin-top: auto;
@@ -360,7 +360,8 @@ body {
 }
 
 .text_thin {
-  font-weight: 180;
+  font-weight: 500;
+  text-transform: capitalize;
 }
 
 .text_grey {
@@ -369,9 +370,11 @@ body {
 
 .text-accent_violet {
   color: #22adfe;
+  text-transform: capitalize;
 }
 .text-accent_aqua {
   color: #22adfe;
+  text-transform: capitalize;
 }
 .text-accent_orange {
   color: #22adfe;
@@ -544,6 +547,7 @@ body {
 .title {
   font-family: "Inter Tight", sans-serif;
   font-weight: 700;
+  text-transform: capitalize;
 }
 @supports (font-size: clamp(2.5rem, 1.45rem + 4.6666666667vw, 4.25rem)) {
   .title {
@@ -919,8 +923,8 @@ body {
 }
 .media-block__text {
   font-family: "Inter Tight", sans-serif;
-  font-weight: 700;
-  text-transform: lowercase;
+  font-weight: 500;
+  text-transform: capitalize;
 }
 @supports (
   font-size: clamp(7.5rem, 1.2313432836rem + 10.447761194vw, 9.25rem)
@@ -1469,6 +1473,7 @@ body {
   left: 0;
   white-space: nowrap;
   top: 46vh;
+  text-transform: capitalize;
 }
 
 .media-block_animated {
@@ -2100,7 +2105,7 @@ body::after {
 .welcome__title {
   font-family: "Inter Tight", sans-serif;
   font-weight: 500;
-  text-transform: lowercase;
+  text-transform: capitalize;
   display: inline-block;
 }
 @supports (
